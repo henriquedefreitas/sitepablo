@@ -1,11 +1,12 @@
 body {
-    font-family: sans-serif;
+    font-family: 'Indie Flower', cursive;
     color: #1c1c1c;
+    font-size: 20px;
 }
 
 h1, h2, h3 {
-    font-family: sans-serif;
     color: #000000;
+    font-size: 40px;
 }
 
 .botao {
@@ -13,7 +14,6 @@ h1, h2, h3 {
     text-decoration: none;
     padding: 10px 30px;
     background-color: #191970;
-    font-size: .9cm;
     border-radius: 3px
 }
 
@@ -28,8 +28,7 @@ nav > a {
     text-decoration: none;
     color: #FFFFFF;
     font-weight: 800;
-    font-size: 32px;
-    font-family: Yellowtail, serif;
+    font-size: 50px;
 }
 
 nav ul {
@@ -58,6 +57,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-image: url("../img/draw.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -67,11 +67,12 @@ header {
 }
 
 header h1 {
-    color: #FFFFFF;
+    color: #000000;
 }
 
 header p {
-    color: #FFFFFF;
+    color: #000000;
+    font-size: 40px;
     margin-bottom: 2cm;
 }
 
@@ -118,7 +119,7 @@ formacao h2 {
     max-width: 1000px;
 }
 
-#experiencia {
+#desenhos {
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -128,11 +129,11 @@ formacao h2 {
     color: #FFFFFF;
 }
 
-experiencia h2 {
+desenhos h2 {
     color: #FFFFFF;
 }
 
-#experiencia p {
+#desenhos p {
     margin-bottom: 2.5com;
     max-width: 1000px;
 }
@@ -143,6 +144,10 @@ experiencia h2 {
     align-items: center;
     text-align: center;
     padding: 20px;
+}
+
+#contato p {
+    font-family: sans-serif;
 }
 
 #contato img {
@@ -191,7 +196,7 @@ footer a {
         justify-content: center;
     }
 
-    #experiencia {
+    #desenhos {
         height: 250px;
         height: 30vh;
         justify-content: center;
