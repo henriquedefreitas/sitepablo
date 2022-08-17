@@ -5,7 +5,7 @@ body {
 }
 
 h1, h2, h3 {
-    color: #000000;
+    color: #ffffff;
     font-size: 40px;
 }
 
@@ -110,32 +110,22 @@ sobre h2 {
     color: #FFFFFF;
 }
 
-formacao h2 {
-    color: #FFFFFF;
-}
-
 #formacao p {
     margin-bottom: 2.5com;
     max-width: 1000px;
 }
 
 #desenhos {
-    display:flex;
-    flex-direction: column;
+    display: flex;
     align-items: center;
     text-align: center;
-    padding: 10px 10px 20px 20px;
+    padding: 20px;
     background-color: #191970;
-    color: #FFFFFF;
 }
 
-desenhos h2 {
-    color: #FFFFFF;
-}
-
-#desenhos p {
-    margin-bottom: 2.5com;
-    max-width: 1000px;
+#desenhos img {
+    width: 400px;
+    padding: 20px;
 }
 
 #contato {
@@ -148,6 +138,10 @@ desenhos h2 {
 
 #contato p {
     font-family: sans-serif;
+}
+
+#contato h2 {
+    color: #000000;
 }
 
 #contato img {
@@ -197,9 +191,14 @@ footer a {
     }
 
     #desenhos {
-        height: 250px;
-        height: 30vh;
-        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: 0 auto; 
+    }
+
+    #desenhos h2 {
+        width: 100%;
     }
 
     #contato {
